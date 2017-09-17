@@ -1,17 +1,17 @@
 (function (angular) {
     'use strict';
     //top250模块
-    var moduel = angular.module('moviecat.movie_list', ['ngRoute', 'moviecat.service.http']);
+    var moduel = angular.module('moviecat.search_list', ['ngRoute','moviecat.service.http']);
 
     moduel.config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/:category/:page', {
-            templateUrl: 'movie_list/view.html',
-            controller: 'MovieListController'
+        $routeProvider.when('/search/:page/:queryStr', {
+            templateUrl: 'search_list/view.html',
+            controller: 'SearchListController'
         });
     }]);
 
-    moduel.controller('MovieListController', ['$scope', '$http', '$route', '$routeParams', '$location', 'HttpService',
-        function ($scope, $http, $route, $routeParams, $location, HttpService) {
+    moduel.controller('SearchListController', ['$scope','$http','$route','$routeParams','$location','HttpService',
+        function ($scope,$http,$route,$routeParams,$location,HttpService) {
             var page = parseInt($routeParams.page); //页码
             var count = 7; //每页显示的条目
             var start = (page - 1) * count; //起始的页数
@@ -22,11 +22,13 @@
             $scope.totalPages = 0; //总共的页数
             $scope.title = "";
             $scope.showBool = true;
-            HttpService.jsonp('https://api.douban.com/v2/movie/' + ($routeParams.category), {
+            var queryStr = $routeParams.queryStr.length>0?$routeParams.queryStr:"";
+
+            HttpService.jsonp('https://api.douban.com/v2/movie/search', {
                 start: start,
-                count: count
+                count: count,
+                q : queryStr
             }, function (data) {
-                console.log(data);
                 $scope.subjects = data.subjects;
                 $scope.title = data.title;
                 $scope.totalCount = data.total;
@@ -40,7 +42,7 @@
                     $route.updateParams({page: page});
                 }
             }
-        }]);
+    }]);
 })(angular);
 
 

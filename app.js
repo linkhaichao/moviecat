@@ -1,13 +1,15 @@
 (function (angular) {
     'use strict';
     //主模块
-    angular.module('moviecat', [
+    var module = angular.module('moviecat', [
         'ngRoute',
+        'moviecat.search_list',
+        'moviecat.detail_list',
         'moviecat.movie_list',
         'moviecat.directive.auto_focus'
     ]).
     config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-        $routeProvider.otherwise({redirectTo: '/in_theaters'});
+        $routeProvider.otherwise({redirectTo: '/in_theaters/1'});
     }]);
        /* .controller('NavController',['$scope','$location',function ($scope, $location) {
             $scope.$location = $location;
@@ -22,4 +24,21 @@
                 }
             })
         }]);*/
+    module.controller('searchController',['$scope','$document',
+        function ($scope,$document) {
+        $scope.searchStr = '';
+            $scope.diableShow =true;
+        $scope.$watch('searchStr',function (newVal) {
+            if (newVal.length > 0){
+                $scope.diableShow =false;
+            }
+            if (newVal<=0){
+                $scope.diableShow =true;
+            }
+        });
+
+        $scope.go=function () {
+            $document[0].location.href = '#/search/1/'+ $scope.searchStr;
+        };
+    }])
 })(angular);
