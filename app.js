@@ -28,6 +28,7 @@
         function ($scope,$document) {
         $scope.searchStr = '';
             $scope.diableShow =true;
+            //搜索框为空的空则不能进行搜索
         $scope.$watch('searchStr',function (newVal) {
             if (newVal.length > 0){
                 $scope.diableShow =false;
@@ -38,7 +39,9 @@
         });
 
         $scope.go=function () {
-            $document[0].location.href = '#/search/1/'+ $scope.searchStr;
+            if($scope.searchStr.length>0){
+                $document[0].location.href = '#/search/1/'+ $scope.searchStr;
+            }
         };
     }])
 })(angular);
