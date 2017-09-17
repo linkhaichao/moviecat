@@ -1,0 +1,215 @@
+{
+  "count": 3,
+  "start": 0,
+  "total": 53,
+  "subjects": [
+    {
+      "rating": {
+        "max": 10,
+        "average": 7.2,
+        "stars": "40",
+        "min": 0
+      },
+      "genres": [
+        "剧情",
+        "动作",
+        "科幻"
+      ],
+      "title": "猩球崛起3：终极之战",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1002708/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/1375081883.31.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/1375081883.31.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/1375081883.31.jpg"
+          },
+          "name": "安迪·瑟金斯",
+          "id": "1002708"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1053560/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/501.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/501.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/501.jpg"
+          },
+          "name": "伍迪·哈里森",
+          "id": "1053560"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1035639/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/7723.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/7723.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/7723.jpg"
+          },
+          "name": "史蒂夫·茨恩",
+          "id": "1035639"
+        }
+      ],
+      "collect_count": 18433,
+      "original_title": "War for the Planet of the Apes",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1045032/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/18161.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/18161.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/18161.jpg"
+          },
+          "name": "马特·里夫斯",
+          "id": "1045032"
+        }
+      ],
+      "year": "2017",
+      "images": {
+        "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2494093630.jpg",
+        "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2494093630.jpg",
+        "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2494093630.jpg"
+      },
+      "alt": "https://movie.douban.com/subject/25808075/",
+      "id": "25808075"
+    },
+    {
+      "rating": {
+        "max": 10,
+        "average": 0,
+        "stars": "00",
+        "min": 0
+      },
+      "genres": [
+        "儿童",
+        "喜剧",
+        "动画"
+      ],
+      "title": "真假森林王",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1348781/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/img/celebrity/small/1470557988.68.jpg",
+            "large": "https://img1.doubanio.com/img/celebrity/large/1470557988.68.jpg",
+            "medium": "https://img1.doubanio.com/img/celebrity/medium/1470557988.68.jpg"
+          },
+          "name": "张洋",
+          "id": "1348781"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1360698/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/img/celebrity/small/1470557893.97.jpg",
+            "large": "https://img1.doubanio.com/img/celebrity/large/1470557893.97.jpg",
+            "medium": "https://img1.doubanio.com/img/celebrity/medium/1470557893.97.jpg"
+          },
+          "name": "吴凡",
+          "id": "1360698"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1360699/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/1470558219.66.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/1470558219.66.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/1470558219.66.jpg"
+          },
+          "name": "唐泽宗",
+          "id": "1360699"
+        }
+      ],
+      "collect_count": 62,
+      "original_title": "真假森林王",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1323528/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+            "large": "https://img3.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+            "medium": "https://img1.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+          },
+          "name": "张恒",
+          "id": "1323528"
+        }
+      ],
+      "year": "2017",
+      "images": {
+        "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2498555012.jpg",
+        "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2498555012.jpg",
+        "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2498555012.jpg"
+      },
+      "alt": "https://movie.douban.com/subject/27133167/",
+      "id": "27133167"
+    },
+    {
+      "rating": {
+        "max": 10,
+        "average": 7.6,
+        "stars": "40",
+        "min": 0
+      },
+      "genres": [
+        "动作",
+        "科幻",
+        "冒险"
+      ],
+      "title": "蜘蛛侠：英雄归来",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1325351/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/img/celebrity/small/1467942867.09.jpg",
+            "large": "https://img1.doubanio.com/img/celebrity/large/1467942867.09.jpg",
+            "medium": "https://img1.doubanio.com/img/celebrity/medium/1467942867.09.jpg"
+          },
+          "name": "汤姆·霍兰德",
+          "id": "1325351"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1016681/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/img/celebrity/small/56339.jpg",
+            "large": "https://img1.doubanio.com/img/celebrity/large/56339.jpg",
+            "medium": "https://img1.doubanio.com/img/celebrity/medium/56339.jpg"
+          },
+          "name": "小罗伯特·唐尼",
+          "id": "1016681"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1047974/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/231.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/231.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/231.jpg"
+          },
+          "name": "玛丽莎·托梅",
+          "id": "1047974"
+        }
+      ],
+      "collect_count": 91300,
+      "original_title": "Spider-Man: Homecoming",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1350194/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/1435142487.62.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/1435142487.62.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/1435142487.62.jpg"
+          },
+          "name": "乔·沃茨",
+          "id": "1350194"
+        }
+      ],
+      "year": "2017",
+      "images": {
+        "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2497756471.jpg",
+        "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2497756471.jpg",
+        "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2497756471.jpg"
+      },
+      "alt": "https://movie.douban.com/subject/24753477/",
+      "id": "24753477"
+    }
+  ],
+  "title": "正在上映的电影-北京"
+}

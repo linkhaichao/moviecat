@@ -1,0 +1,36 @@
+<h1 class="page-header">{{title}}</h1>
+<h1 ng-if="message">{{message}}</h1>
+<ul class="list-group">
+    <a class="list-group-item" href="" ng-repeat="item in subjects">
+        <span class="badge pull-right" >{{item.rating.average}}</span>
+        <div class="media">
+            <div class="media-left">
+                <img class="media-object" ng-src="{{item.images.small}}" alt="haha" style="height: 118px;">
+            </div>
+            <div class="media-body">
+                <h3 style="margin-top: 0">{{item.title}}</h3>
+                <p><span>类型: </span><span >{{item.genres.join('、')}}</span>&nbsp;&nbsp;&nbsp;<span>上映年份:</span><span>{{item.year}}</span></p>
+                <p><span>导演: </span><span ng-repeat="daoyan in item.directors">{{daoyan.name + ($last ? "":"、")}}</span></p>
+                <p><span>主演: </span><span ng-repeat="zhuyan in item.casts">{{zhuyan.name+ ($last ? "":"、")}}</span></p>
+            </div>
+        </div>
+    </a>
+</ul>
+<p ng-show="totalCount">总共有{{totalCount}}条记录,当前页{{currentPage}}/{{totalPages}}页</p>
+
+<nav aria-label="分页" ng-show="totalCount">
+    <ul class="pager">
+        <li ng-class="{disabled:(currentPage-1)<1}"><a ng-click="go(currentPage-1)" >上一页</a></li>
+        <li ng-class="{disabled:(currentPage+1)>totalPages}"><a ng-click="go(currentPage+1)" >下一页</a></li>
+    </ul>
+</nav>
+<div class="mask" ng-show="!totalCount">
+    <div class="loading" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
